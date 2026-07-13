@@ -1,185 +1,136 @@
-# 🤖 AI Resume Analyzer & ATS Score Checker
+# 📊 DataVerse AI
 
-A professional Streamlit application that analyzes resumes, calculates an ATS (Applicant Tracking System) compatibility score, compares resumes with job descriptions, identifies missing skills, and provides personalized recommendations to improve interview chances.
+## Intelligent Data Analyst Assistant
 
----
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-# 🚀 Features
 
-- Upload Resume (PDF or DOCX)
-- Extract Resume Text
-- ATS Compatibility Score
-- Job Description Matching
-- Missing Skills Detection
-- Resume Strength Analysis
-- Keyword Density Analysis
-- Skill Visualization
-- Resume Statistics
-- Personalized Improvement Suggestions
-- Interactive Dashboard
-- Download Analysis Report
+## 🚀 Project Overview
 
----
+**DataVerse AI** is an intelligent data analysis platform built using **Python, Streamlit, and Machine Learning**.
 
-# 🛠 Tech Stack
+The application allows users to upload any CSV or Excel dataset and perform complete data analysis without writing code.
 
-- Python
-- Streamlit
-- Pandas
-- NumPy
-- Scikit-learn
-- Plotly
-- Matplotlib
-- PyPDF2
-- pdfplumber
-- python-docx
-- NLTK
-- spaCy
-- WordCloud
+It combines:
+
+- 📂 Dataset Management
+- 🧹 Data Cleaning
+- 📋 Data Exploration
+- 📊 Interactive Visualization
+- 📈 Statistical Analysis
+- 🤖 Machine Learning
+- 🎯 AI Prediction
+- 📄 PDF Report Generation
+
 
 ---
 
-# 📂 Project Structure
+# ✨ Features
 
-```
-AI_Resume_Analyzer/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-├── assets/
-├── sample_resume.pdf
-└── sample_job_description.txt
-```
 
----
+## 📂 Dataset Upload
 
-# ⚙ Installation
+- Upload CSV files
+- Upload Excel files
+- Automatic dataset loading
+- Dataset preview
 
-Clone the repository
 
-```bash
-git clone https://github.com/yourusername/AI_Resume_Analyzer.git
-```
+## 🧹 Data Cleaning
 
-Move into the project
+- Missing value handling
+- Duplicate removal
+- Data preprocessing
+- Clean dataset download
 
-```bash
-cd AI_Resume_Analyzer
-```
 
-Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the application
-
-```bash
-streamlit run app.py
-```
-
----
-
-# 📊 Modules
-
-### Dashboard
-
-Displays complete resume analysis.
-
-### Resume Upload
-
-Upload PDF or DOCX resumes.
-
-### ATS Score
-
-Calculates ATS compatibility percentage.
-
-### Resume vs Job Description
-
-Compares the uploaded resume with a job description.
-
-### Missing Skills
-
-Detects important keywords missing from the resume.
-
-### Resume Insights
+## 📋 Dataset Overview
 
 Provides:
 
-- Resume Length
-- Word Count
-- Keyword Frequency
-- Skill Coverage
-- Experience Indicators
+- Number of rows
+- Number of columns
+- Missing values
+- Duplicate records
+- Data types
+- Unique values
 
-### Recommendations
 
-Suggests improvements to increase ATS score.
+## 📊 Interactive Visualization
+
+Create:
+
+- Bar Charts
+- Line Charts
+- Scatter Plots
+- Histograms
+- Box Plots
+- Pie Charts
+- Correlation Heatmaps
+
+
+## 📈 Statistical Analysis
+
+Includes:
+
+- Mean
+- Median
+- Minimum
+- Maximum
+- Standard deviation
+- Dataset summary
+
+
+## 🤖 Machine Learning Studio
+
+Supports:
+
+### Classification
+
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- KNN
+- Support Vector Machine
+
+
+### Regression
+
+- Linear Regression
+- Random Forest Regressor
+
+
+Features:
+
+- Automatic problem detection
+- Model training
+- Performance evaluation
+- Model saving
+
+
+## 🎯 AI Prediction
+
+Users can:
+
+- Enter feature values
+- Generate predictions
+- Download prediction results
+
+
+## 📄 PDF Report Generator
+
+Creates professional PDF reports containing:
+
+- Dataset information
+- Data statistics
+- Analysis summary
+- Machine learning details
+
 
 ---
 
-# 📈 Technologies Used
+# 🏗️ Project Structure
 
-- Machine Learning
-- Natural Language Processing (NLP)
-- TF-IDF Vectorization
-- Cosine Similarity
-- Text Processing
-- Data Visualization
-
----
-
-# 💻 How It Works
-
-1. Upload your resume.
-2. Upload or paste a job description.
-3. The application extracts text from both documents.
-4. NLP preprocessing removes unnecessary words.
-5. TF-IDF vectorization converts text into numerical vectors.
-6. Cosine Similarity computes the ATS compatibility score.
-7. Missing keywords and recommendations are generated.
-8. Interactive charts display resume insights.
-
----
-
-# 📸 Screens
-
-- Home Page
-- Upload Resume
-- Upload Job Description
-- ATS Score Dashboard
-- Skill Analysis
-- Recommendations
-- Download Report
-
----
-
-# 📚 Future Improvements
-
-- AI Resume Rewriting
-- GPT-based Suggestions
-- Multi-language Resume Support
-- LinkedIn Profile Analysis
-- Resume Ranking
-- Interview Question Prediction
-- Cover Letter Generator
-
----
-
-# 👨‍💻 Author
-
-Dhruv Panchal
-
-BSc Data Science Student
-
-Python • Machine Learning • Data Analytics • Streamlit
-
----
-
-# ⭐ If you like this project
-
-Give this repository a ⭐ on GitHub.
-
-Happy Coding 🚀
