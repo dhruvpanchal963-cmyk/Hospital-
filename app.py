@@ -100,7 +100,7 @@ AUTHOR = "Dhruv Panchal"
 
 
 # ============================================================
-# PROFESSIONAL UI CSS
+# PROFESSIONAL UI CSS (FIXED TEXT COLORS)
 # ============================================================
 
 st.markdown("""
@@ -112,11 +112,13 @@ body {
 }
 
 
+/* Main Heading */
+
 .main-title {
 
     font-size:48px;
     font-weight:800;
-    color:#2563eb;
+    color:#38bdf8;
     text-align:center;
 
 }
@@ -126,31 +128,104 @@ body {
 
     font-size:20px;
     text-align:center;
-    color:#64748b;
+    color:#cbd5e1;
 
 }
 
+
+
+/* Cards */
 
 .card {
 
     padding:25px;
     border-radius:20px;
     background:#ffffff;
-    box-shadow:0px 5px 20px rgba(0,0,0,0.1);
+    box-shadow:0px 5px 20px rgba(0,0,0,0.15);
     margin:10px;
+
+    color:#111827;
 
 }
 
+
+.card h3 {
+
+    color:#2563eb;
+    font-weight:700;
+
+}
+
+
+.card p,
+.card div {
+
+    color:#374151;
+
+}
+
+
+
+/* Streamlit Metric Cards */
 
 div[data-testid="stMetric"] {
 
     background:#ffffff;
-    padding:15px;
+    padding:20px;
     border-radius:15px;
-    box-shadow:0px 3px 15px rgba(0,0,0,0.08);
+    box-shadow:0px 3px 15px rgba(0,0,0,0.15);
 
 }
 
+
+div[data-testid="stMetric"] label {
+
+    color:#475569 !important;
+    font-weight:600;
+
+}
+
+
+div[data-testid="stMetric"] div {
+
+    color:#111827 !important;
+    font-size:28px;
+
+}
+
+
+
+/* Normal Text */
+
+.stMarkdown,
+p,
+span,
+label {
+
+    color:#e5e7eb;
+
+}
+
+
+
+/* Sidebar */
+
+section[data-testid="stSidebar"] {
+
+    background:#020617;
+
+}
+
+
+section[data-testid="stSidebar"] * {
+
+    color:#f8fafc;
+
+}
+
+
+
+/* Buttons */
 
 .stButton button {
 
@@ -159,8 +234,14 @@ div[data-testid="stMetric"] {
     height:45px;
     font-weight:bold;
 
+    background:#2563eb;
+    color:white;
+
 }
 
+
+
+/* Remove Footer */
 
 footer {
 
@@ -172,8 +253,6 @@ footer {
 </style>
 
 """, unsafe_allow_html=True)
-
-
 
 # ============================================================
 # SESSION STATE
